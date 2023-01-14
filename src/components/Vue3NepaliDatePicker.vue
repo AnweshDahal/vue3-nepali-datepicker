@@ -105,7 +105,7 @@ import {
   ENGLISH_NEPALI_MONTH,
 } from "./constants.js";
 export default {
-  name: "VNepalidatepicker", // vue component name
+  // vue component name
   props: {
     value: { type: String, default: "" },
     format: { type: String, default: "YYYY-MM-DD" },

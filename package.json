@@ -1,7 +1,19 @@
 {
   "name": "vue3-nepali-datepicker",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
+  "main": "./dist/vue3-nepali-datepicker.umd.js",
+  "module": "./dist/vue3-nepali-datepicker.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-nepali-datepicker.es.js",
+      "require": "./dist/vue3-nepali-datepicker.umd.js"
+    },
+    "./dist/style.css": "./dist.style.css"
+  },
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
